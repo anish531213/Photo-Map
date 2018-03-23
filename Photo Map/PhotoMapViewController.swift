@@ -16,8 +16,6 @@ class PhotoAnnotation: NSObject, MKAnnotation {
     var title: String? {
         return "\(coordinate.latitude)"
     }
-    
-    
 }
 
 class PhotoMapViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, LocationsViewControllerDelegate, MKMapViewDelegate {
